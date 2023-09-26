@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    background-color: rgb(87, 202, 87);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#main{
+    background-color: white;
+    height: 40vh;
+    width: 300px;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+h1{
+    font-size: 27px;
+    font-family: sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold' ;
+}
+p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+#mainContent{
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+input{
+    height: 50px;
+    width: 120px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-radius: 5px;
+    font-size: 25px;
+    text-align: center;
+    gap: 2px;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+    display: none;
+}
+input:disabled{
+    cursor: not-allowed;
+}
+button{
+    border-radius: 5px;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    background-color: rgba(0, 74, 233, 0.884);
+    color: white;
+    height: 53px;
+    width: 120px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+button:active{
+    transform: scale(0.97);
+}
+
+h2{
+    position: absolute;
+    top: 80px;
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+}
+
+
+
